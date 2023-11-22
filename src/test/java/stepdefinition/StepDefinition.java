@@ -34,6 +34,7 @@ public class StepDefinition {
 		driver.get("https://demo.nopcommerce.com/");
 		driver.manage().window().maximize();
 		Screenshots.capture(driver);
+		System.out.println("Hii");
 	}
 
 
